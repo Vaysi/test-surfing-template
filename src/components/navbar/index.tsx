@@ -101,32 +101,36 @@ function Navbar() {
                             <Button
                                 onClick={handleCloseNavMenu}
                                 sx={{ my: 2, color: 'white', display: 'block' }}
+                                className={classes.desktopLinks}
                             >
-                                <Link className={`${classes.links} ${classes.desktopLinks}`} underline={"none"} href="#">
+                                <Link className={classes.links} underline={"none"} href="#">
                                     Stories
                                 </Link>
                             </Button>
                             <Button
                                 onClick={handleCloseNavMenu}
                                 sx={{ my: 2, color: 'white', display: 'block' }}
+                                className={classes.desktopLinks}
                             >
-                                <Link className={`${classes.links} ${classes.desktopLinks}`} underline={"none"} href="#">
+                                <Link className={classes.links} underline={"none"} href="#">
                                     Events
                                 </Link>
                             </Button>
                             <Button
                                 onClick={handleCloseNavMenu}
                                 sx={{ my: 2, color: 'white', display: 'block' }}
+                                className={classes.desktopLinks}
                             >
-                                <Link className={`${classes.links} ${classes.desktopLinks}`} underline={"none"} href="#">
+                                <Link className={classes.links} underline={"none"} href="#">
                                     Places
                                 </Link>
                             </Button>
                             <Button
                                 onClick={handleCloseNavMenu}
                                 sx={{ my: 2, color: 'white', display: 'block' }}
+                                className={classes.desktopLinks}
                             >
-                                <Link className={`${classes.links} ${classes.desktopLinks}`} underline={"none"} href="#">
+                                <Link className={classes.links} underline={"none"} href="#">
                                     Boards
                                 </Link>
                             </Button>
