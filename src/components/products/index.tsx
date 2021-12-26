@@ -5,6 +5,7 @@ import {makeStyles} from "@mui/styles";
 import VerticalDivider from "../inline-components/vertical-divider";
 import {ChevronLeft, ChevronRight} from "@mui/icons-material";
 import SlickSlider from "react-slick";
+import UnderlinedText from "../inline-components/underlined-text";
 
 
 function SampleNextArrow(props: any) {
@@ -77,7 +78,7 @@ const useStyles = makeStyles({
         fontSize: 12,
         display: "block",
         marginTop: -7
-    }
+    },
 });
 
 function Products() {
@@ -190,6 +191,9 @@ function Products() {
                     </div>
                 </div>
             </SlickSlider>
+            <Typography variant="body1" align={"center"} marginTop={7} marginBottom={10}>
+               <UnderlinedText text={"SHOW ALL"} />
+            </Typography>
         </div>
     );
 }

@@ -16,6 +16,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import {makeStyles} from "@mui/styles";
 import VerticalDivider from "../inline-components/vertical-divider";
 import {PlayCircle} from "@mui/icons-material";
+import UnderlinedText from "../inline-components/underlined-text";
 
 const useStyles = makeStyles({
     card: {
@@ -31,14 +32,6 @@ const useStyles = makeStyles({
     cardCaptionWrapper: {
         width: "70%",
         margin: "auto"
-    },
-    readMore: {
-        fontFamily: "League Spartan,arial",
-        fontSize: 10.5,
-        letterSpacing: 5,
-        color: "#333",
-        paddingBottom: 10,
-        borderBottom: "2px solid #8dc1f3"
     },
     video: {
         width: "105%",
@@ -89,9 +82,7 @@ function Latest() {
                                 <Typography variant="body2" className={classes.cardCaption}>
                                     By better understanding the various aspects of surfing, you will improve faster and have more fun in the water.
                                 </Typography>
-                                <Link className={classes.readMore} underline={"none"} href="#">
-                                    READ MORE
-                                </Link>
+                                <UnderlinedText text={"READ MORE"} />
                             </CardContent>
                         </CardActionArea>
                     </Card>
