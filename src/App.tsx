@@ -6,6 +6,7 @@ import Quote from "./components/quote";
 import Latest from "./components/latest";
 import Products from "./components/products";
 import Training from "./components/training";
+import PointBreak from "./components/point-break";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Latest />
         <Products />
         <Training />
+        <PointBreak />
       </Container>
     </div>
   );

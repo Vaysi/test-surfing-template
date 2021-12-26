@@ -7,17 +7,17 @@ const useStyles = makeStyles({
     divider: {
         height: 100,
         backgroundColor: "#5da8ef",
-        width: 1,
+        width: 2,
         margin: "25px auto",
         display: "block",
     },
 });
 
-function VerticalDivider() {
+function VerticalDivider(props:any) {
     const classes = useStyles();
 
     return (
-        <div className={classes.divider}>
+        <div className={classes.divider} {...props}>
 
         </div>
     );
