@@ -21,8 +21,8 @@ function UnderlinedText(props:Props) {
 
     return (
         <>
-            <Link className={classes.underlined} underline={"none"} href={props.link ?? ""}>
-                {props.text}
+            <Link className={classes.underlined} underline={"none"} href={props.link ?? "#"}>
+                {props.text.toUpperCase()}
             </Link>
         </>
     );

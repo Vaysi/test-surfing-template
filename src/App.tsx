@@ -5,6 +5,7 @@ import Slider from "./components/slider";
 import Quote from "./components/quote";
 import Latest from "./components/latest";
 import Products from "./components/products";
+import Training from "./components/training";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Quote />
         <Latest />
         <Products />
+        <Training />
       </Container>
     </div>
   );
