@@ -7,7 +7,6 @@ const useStyles = makeStyles({
         fontFamily: "League Spartan,arial",
         fontSize: 10.5,
         letterSpacing: 5,
-        color: "#333",
         paddingBottom: 10,
         borderBottom: "2px solid #8dc1f3"
     }
@@ -15,13 +14,14 @@ const useStyles = makeStyles({
 interface Props {
     text: string;
     link?: string;
+    color?: string;
 }
 function UnderlinedText(props:Props) {
     const classes = useStyles();
 
     return (
         <>
-            <Link className={classes.underlined} underline={"none"} href={props.link ?? "#"}>
+            <Link style={{color: props.color ?? "#333" }} className={classes.underlined} underline={"none"} href={props.link ?? "#"}>
                 {props.text.toUpperCase()}
             </Link>
         </>
