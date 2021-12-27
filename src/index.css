@@ -13,3 +13,8 @@
 img {
     max-width: 100%;
 }
+
+::placeholder {
+    color: #464646;
+    opacity: 1;
+}

@@ -7,6 +7,9 @@ import Latest from "./components/latest";
 import Products from "./components/products";
 import Training from "./components/training";
 import PointBreak from "./components/point-break";
+import Newsletter from "./components/newsletter";
+import Camp from "./components/camp";
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -19,6 +22,11 @@ function App() {
         <Products />
         <Training />
         <PointBreak />
+        <Newsletter />
+      </Container>
+      <Container maxWidth={"xl"} style={{paddingRight:0,paddingLeft:0}}>
+        <Camp />
+        <Footer />
       </Container>
     </div>
   );
